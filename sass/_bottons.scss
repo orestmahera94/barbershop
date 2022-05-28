@@ -1,0 +1,29 @@
+
+.buttom {
+width: 160px;
+height: 40px;
+
+border: solid 1px $secondaryColor;
+border-radius:20px;
+
+background-color: rgba(25, 28, 38, 0.2);
+
+color: $primaryColor;    
+cursor: pointer;
+
+&:hover,&:focus{
+
+   background-color: $secondaryColor;
+}
+}
+.textBotton{
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.09em;
+   text-transform: uppercase;
+   
+   color: $primaryColor;
+}

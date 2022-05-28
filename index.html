@@ -1,13 +1,182 @@
----
-layout: presentation
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:ital,wght@0,700;1,400&display=swap" />
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+	<header>
+<div class = " container__header">
+	<div class="column">
+		<a href="" class="">Youtube</a>
+		<a href="" class="">Instagram</a>
+	</div>
+<div class="hero">
+	<div class="menu-header">
+		<ul class = "service">
+			<li class = "service__item" > <a href="" class="menu"><p class="serviceText">О нас</p></a></li>
+			<li class = "service__item"><a href="" class="menu"><p class="serviceText">Услуги и цены</p></a></li>
+			<li class="service__item"><a href="" class="menu"><p class="serviceText"></p>Мастера</a> </li>
+			<li class="service__item"><a href="" class="menu"><p class="serviceText"></p>Контакты</a></li>
+		</ul>
+		
+		<ul class="record">
+			<li class="record__item"> <a href="tel:+380441111111" rel="noreferrer nofollow" aria-label="phone-nomber" class="phone">+38 044 11 11 111</a></li>
+			<li class="record__item"><button name="button" type="button" class="buttom"><p class="textBotton">ОНЛАЙН-ЗАПИСЬ</p></button></li>
+		</ul>
+	</div>
+	
+	<div class="aboutBarber">
+		<p class="textAboutSalon">A HAIR SALON FOR MEN IN KYIV</p>
+	<h1 class="nameBarberShop">BarberShop</h1>
+	<p class="aboutUs">Мы експерты в модных мужских стрижках. <br>Работаем быстро, осторожно и со вкусом.</p>
+	</div>
+	</div>
+</div>
+	</header>
+<main>
+	<!-- SECTION ABOUT US -->
+<section class=" about__us">
+<div class="container">
+	<ul class="work-photo">
+		<li class="work-photo__beard"></li>
+		<li class="worc-photo__hear"></li>
+	</ul>
+	
+	<p> О НАС</p>
+	<h2>Лучший барбершоп твоего города</h2>
+	<h3>Если ты хочеш добавить в свой образ больше уверенности - тебе точно к нам.</h3>
+	<p>Мы команда, которая никогда не останавливается на достигнутом<br> и жаждет перемен. И когда ты попадешь в руки нашего мастера, <br>то уже никогда не сможешь быть прежним. Мы команда, которая <br>всегда с клиентами "на одной волне". Поэтому, мы всегда готовы</p>
+	<button name="button" type="button" class="button">ОНЛАЙН-ЗАПИСЬ</button>
+	
+</div>
+</section>
+<!-- services and prices -->
+<section class="services and prices">
+<div class="container">
+	<p>ПРОВЕДИ ВРЕМЯ В КОМПАНИИ ЛУЧШИХ МАСТЕРОВ</p>
+	<h2>УСЛУГИ И ЦЕНЫ</h2>
+	<ul class="first-list">
+		<li>Мужская стрижка от 300 грн.</li>
+		<li>Стрижка бороды от 200 грн.</li>
+		<li>Стрижка усов от 200 грн.</li>
+		<li>Бритье опасной бритвой от 120 грн.</li>
+	</ul>
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+	<ul class="second-list">
+		<li>Стрижка у стажора от 50 грн.</li>
+		<li>Стрижка под насадку от 200 грн.</li>
+		<li>Детская стрижка (до 12 лет) от 300 грн.</li>
+		<li>Камуфлирование седены от 200 грн.</li>
+	</ul>
+
+	<button name="button" type="button" class="button">ОНЛАЙН-ЗАПИСЬ</button>
+</div>
+
+</section>
+<!-- WHY WE -->
+<section class=" why we">
+	<div class="container">
+		<div class="statistics">
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="text">
+			<p>Старая традиционна школа</p>
+			<h2>Почему приходят именно к нам?</h2>
+			<h3>О нас говорят только хорошее.Но лучше 1 раз <br> увидеть и почуствувать , чем 10 раз прочитать.</h3>
+		</div>
+	</div>
+</section>
+<!-- MASTERS -->
+<section class="massters">
+	<div class="container">
+		<p>ДЛЯ НАСТОЯЩИХ ЦЕНИТЕЛЕЙ АТМОСФЕРЫ</p>
+		<h2> Наши мастера</h2>
+		
+		<ul class="workers">
+			<li>
+				<a href=""></a>
+				<p></p>
+				<p></p>
+				<ul class="social">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			<li>
+				<a href=""></a>
+				<p></p>
+				<p></p>
+				<ul class="social">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			<li>
+				<a href=""></a>
+				<p></p>
+				<p></p>
+				<ul class="social">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</section>
+<!-- PORTFOLIO -->
+<section class="portfolio">
+<div class="container">
+<p>НА ЛАТИНСКОМ БАРБА ОЗНАЧАЕТ БОРОДА</p>
+<ul class="samples">
+	<li class="samples__item"><a href=""></a></li>
+	<li class="samples__item"><a href=""></a></li>
+	<li class="samples__item"><a href=""></a></li>
+	<li class="samples__item"><a href=""></a></li>
+</ul>
+</div>
+</section>
+<!-- ONLINE RECORDING END CONTACTS  -->
+<section class="online">
+	<div class="container">
+		<div class="write">
+			<h2>ОНЛАЙН-ЗАПИСЬ</h2>
+			<p>ИМЯ</p>
+			<p>ТЕЛЕФОН</p>
+			<p>СООБЩЕНИЕ</p>
+			<button name="button" type="button" class="button">ОТПРАВИТЬ</button>
+		</div>
+		<div class="contacts">
+	<h2>Контакты</h2>
+	<a href="">ул.Васильковская ,7А <br> Киев , 08732</a><br>
+	<a href="tel:+380441111111" rel="noreferrer nofollow" aria-label="phone-nomber">+38 044 11 11 111</a><br>
+	<a href="mail:barbershop@mail.com">barbershop@mail.com</a>
+	<p>ВРЕМЯ РАБОТЫ</p>
+	<p>Ежедневно с 9:00 до 22:00</p>
+		</div>
+	</div>
+</section>
+</main>
+<footer>
+	<p> &#169; C o p y r i g h t 2020</p>
+	<a href="https://www.instagram.com">Instagram</a>
+	<a href="https://www.youtube.com/">Youtube</a>
+</footer>
+</body>
+</html>
