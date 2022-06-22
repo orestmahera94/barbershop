@@ -1,0 +1,45 @@
+.about__us{
+    display: flex;
+    flex-direction: row;
+
+.work-photo{
+
+    display: flex;
+    flex-direction: row;
+    width: 470px;
+
+    &__beard{
+        margin-right: 30px;
+        
+        width: 270px;
+        height: 445px;
+        left: 55.05px;
+        top: 772px;
+
+        background-image: url(/image/img1.jpg);
+        
+    }
+    &__hear{
+        
+        width: 270px;
+        height: 445px;
+        left: 355.52px;
+        top: 772px;
+
+        background-image: url(/image/img2.jpg);
+        
+    }
+    
+}
+.textAbout{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 445px;
+    
+    margin-left: 64px;
+}
+}
+
+
+

@@ -1,7 +1,7 @@
 @import '_variable.scss';
 @import '_bottons.scss';
 @import '_header.scss';
-
+@import '_about-us.scss';
 li {
     list-style-type: none;
   }
@@ -43,4 +43,91 @@ body {
   margin-right: auto;
 
   background-color:orange;
+}
+
+.container__white{
+  background-color: $primaryColor;
+}
+
+.small-text{
+  overflow: hidden;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px;
+  
+}
+
+.line {
+  margin-left: 80px;
+  
+  // &::before{
+    content: ' ';
+    position: absolute;
+    
+    transform: translate(-80px, 7px);
+    width: 60px;
+    height: 1px;
+    background-color: $primaryColor;
+  
+}
+
+.aboutBarber {
+  margin-top: 272px;
+  margin-left: 100px;
+  margin-bottom: 206px;
+}
+
+.bigLatter{
+  margin-bottom: 20px;
+  
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 49px;
+letter-spacing: 0.05em;
+}
+
+.textAnderBigLater{
+  margin-bottom: 20px;
+  
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  letter-spacing: 0.02em;
+
+}
+
+.smallText{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+
+
+letter-spacing: 0.02em;
+margin-bottom: 40px;
+}
+
+.textColor{
+  color: $textColor;
+}
+.blackColour{
+  color: $black;
+}
+.greyColor{
+  color: $greyColor;
+}
+.backgroundBlackColor{
+  background-color: $black;
 }

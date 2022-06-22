@@ -6,16 +6,15 @@ height: 40px;
 border: solid 1px $secondaryColor;
 border-radius:20px;
 
-background-color: rgba(25, 28, 38, 0.2);
-
-color: $primaryColor;    
+background-color: rgba(25, 28, 38, 0.2);    
 cursor: pointer;
 
 &:hover,&:focus{
-
    background-color: $secondaryColor;
 }
+
 }
+
 .textBotton{
    font-family: 'Open Sans';
    font-style: normal;
@@ -25,5 +24,6 @@ cursor: pointer;
    letter-spacing: 0.09em;
    text-transform: uppercase;
    
-   color: $primaryColor;
+   
 }
+

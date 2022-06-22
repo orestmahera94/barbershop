@@ -1,175 +1,174 @@
 .container__header {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    margin-right: auto;
-    margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
 
-    max-width: 1370px;
-    color: $primaryColor;
+  max-width: 1370px;
+  color: $primaryColor;
 }
 
 .column {
-
-width: 155px;
+  width: 155px;
+  
+}
+.image-svg{
+  width: 63px;
+  height: 58px;
+  fill: $blackColor;
 }
 
+.rectangle {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 40px;
+  margin-top: 470px;
+  padding-right: 58px;
+  padding-left: 60px;
+  
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+
+  letter-spacing: 0.2em;
+
+  transform: rotate(-90deg);
+  
+  // &::before{
+  //   top: 20px;
+  //   content: ' ';
+  //   position: absolute;
+  //   transform: translate(-80px, 7px);
+  //   width: 60px;
+  //   height: 1px;
+  //   background-color: $black;
+  // }
+}
+
+.rectangle__item {
+
+  padding: 20px;
+  color: $greyColor;
+  &:hover,
+  &:focus {
+    color: $secondaryColor;
+  }
+
+  &:last-child(){
+    margin-left: 40px;
+  }
+}
 .hero {
-    
-    width: 1125px;
-    height: 680px;
-    left: 1280px;
-    top: 0px;
+  width: 1225px;
+  height: 680px;
+  left: 1280px;
+  top: 0px;
 
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-image: url(/image/Slider.jpg);
-    background-size: 100%;
-
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-image: url(/image/Slider.jpg);
+  background-size: 100%;
 }
 .menu-header {
-
-display: flex;
-align-items: baseline;
-padding-top: 40px;
-
+  display: flex;
+  align-items: baseline;
+  padding-top: 40px;
 }
 
 .service {
-
-    display: flex;
-    margin-left: 40px;
+  display: flex;
+  margin-left: 40px;
 }
 
 .service__item {
+  flex-direction: row;
+  align-items: center;
 
-    flex-direction: row;
-    align-items: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
 
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0.1em;
-
-    &:not(:first-child){
-        margin-left: 40px;
-    }
+  &:not(:first-child) {
+    margin-left: 40px;
+  }
 }
 
-.menu{
+.menu {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
 
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.1em;
+  color: $primaryColor;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-    color: $primaryColor;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    &:hover,&:focus {
-        color: $secondaryColor;
-    }
+  &:hover,
+  &:focus {
+    color: $secondaryColor;
+  }
 }
 
-.serviceText{
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.1em;
+.serviceText {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
 }
 .record {
+  display: flex;
+  flex-direction: row;
 
-    display: flex;
-    flex-direction: row;
-
-    margin-right: 55px;
-    margin-left: auto;
+  margin-right: 55px;
+  margin-left: auto;
 }
 
 .record__item {
-    display: flex;
-align-items: center;
-    
+  display: flex;
+  align-items: center;
 }
 
 .phone {
-    padding: 10px;
-    margin-right: 40px;
-    color: $primaryColor;
+  padding: 10px;
+  margin-right: 40px;
+  color: $primaryColor;
 
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 
-    cursor: pointer;
-    &:hover,&:focus {
-        color: $secondaryColor;
-    }
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    color: $secondaryColor;
+  }
 }
 
-.textAboutSalon {
-    overflow: hidden;
-    
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 15px;
-    
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    border: 1px;
-    color: $textColor;
+.name {
+  margin-top: 20px;
+  margin-bottom: 20px;
 
-    
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 85px;
 
-}
+  letter-spacing: 0.05em;
 
-.aboutBarber {
-    margin-top: 272px;
-    margin-left: 100px;
-    margin-bottom: 206px;
-
-}
-
-.nameBarberShop {
-    
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 85px;
-
-    letter-spacing: 0.05em;
-
-    color: $primaryColor;
-}
-
-.aboutUs {
-    
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    
-    letter-spacing: 0.02em;
-    
-    color:$textColor;
-    
+  color: $primaryColor;
 }
